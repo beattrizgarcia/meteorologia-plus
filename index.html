@@ -37,27 +37,25 @@
       </header>
       <main>
         <div class="current">
-          <h1 class="weather-app-city" id="weather-app-city"></h1>
-
+          <div>
+            <h1 class="weather-app-city" id="weather-app-city"></h1>
+            <p class="date-state">
+              <span id="time"> </span>,
+              <span id="description"> </span>
+              <br />
+              <span class="other-info">
+                <strong>Humidity</strong>: <span id="humidity"></span>
+                <strong>Wind</strong>: <span id="wind"> </span>
+              </span>
+            </p>
+          </div>
           <div class="current-icon" id="current-icon"></div>
           <div class="just-temperature">
             <p class="current-temperature" id="current-temperature"></p>
             <span class="weather-unit">ºC</span>
           </div>
-          <p class="date-state">
-            <span id="time"> </span>,
-            <span id="description"> </span>
-          </p>
         </div>
-        <div class="parent-other-info">
-          <p class="other-info">
-            <br />
-
-            <strong>Humidity</strong>: <span id="humidity"></span> <br /><strong
-              >Wind</strong
-            >: <span id="wind"> </span>
-          </p>
-        </div>
+        <div class="parent-other-info"></div>
       </main>
       <footer>
         This project was coded by
